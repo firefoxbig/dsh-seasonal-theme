@@ -34,14 +34,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REPLACE_OWNER/dsh-seasonal-theme.git"
+    "url": "git+https://github.com/firefoxbig/dsh-seasonal-theme.git"
   },
-  "homepage": "https://github.com/REPLACE_OWNER/dsh-seasonal-theme#readme",
+  "homepage": "https://github.com/firefoxbig/dsh-seasonal-theme#readme",
   "bugs": {
-    "url": "https://github.com/REPLACE_OWNER/dsh-seasonal-theme/issues"
+    "url": "https://github.com/firefoxbig/dsh-seasonal-theme/issues"
   },
   "author": {
-    "name": "REPLACE_AUTHOR"
+    "name": "firefoxbig"
   },
   "dsh": {
     "bundle": {
