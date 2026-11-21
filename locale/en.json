@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Four Seasons Theme",
+    "description": "Four soft seasonal gradient palettes for the whole Web UI — spring pink, summer teal, autumn amber, winter blue. Open “Four Seasons” in the left sidebar to pick one; leave “Follow the seasons” on to switch automatically by month (spring Mar–May, summer Jun–Aug, autumn Sep–Nov, winter Dec–Feb). Both light and dark appearance are covered. The choice is stored in this browser only: it changes colours, touches no other setting, and “Restore DSH colours” reverts it. Pure client-side; no network access and no agent tools.",
+    "detail": "docs/DETAIL.md"
+  }
+}

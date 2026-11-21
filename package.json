@@ -1,0 +1,61 @@
+{
+  "name": "dsh-seasonal-theme",
+  "version": "1.1.0",
+  "description": "Four-season gradient themes for DeepSeek Harness: a sidebar theme studio with automatic seasonal switching and a hue-forward palette in both light and dark appearance.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "theme",
+    "seasonal",
+    "four-seasons",
+    "gradient",
+    "dark-mode",
+    "sidebar"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0-0 <0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE_OWNER/dsh-seasonal-theme.git"
+  },
+  "homepage": "https://github.com/REPLACE_OWNER/dsh-seasonal-theme#readme",
+  "bugs": {
+    "url": "https://github.com/REPLACE_OWNER/dsh-seasonal-theme/issues"
+  },
+  "author": {
+    "name": "REPLACE_AUTHOR"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  }
+}
